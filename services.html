@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mr. Car FeelBetter - Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--    font-family: 'Arimo', sans-serif;
+
+    font-family: 'Yesteryear', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Yesteryear&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-main">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logotest.png" alt="logo" id="logoNav"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMainHeader"
+                aria-controls="navbarMainHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMainHeader">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">REVIEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quote-form">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class ="container">
+
+        <div class="row">
+    <div class="col-12">
+       
+            <img src="images/serviceBanner.jpg" alt="A car's headlights and a Sign saying 'Car Repair' " class="img-fluid">
+        </div>
+
+        
+    </div>
+
+
+
+   
+    <div class="row justify-content-center serviceList">
+       
+   
+        <div class="col-12 col-lg-4 car text-center">
+            <img src="images/beforeAfter.png" alt="A car before and after" class="img-fluid serviceImg">
+            <h2>BODY REPAIRS</h2>
+            <ul>
+                <li>DOOR - 200$</li>
+                <li>WINDSHIELD - 200$-500$</li>
+                <li>SUSPENSION - 400$</li>
+                <li>WHEELS RIMS - 200$</li>
+                <LI>COLLISION DAMAGE AVAILABLE UPON REQUEST</LI>
+            </ul>
+        </div>
+        <div class="col-12 col-lg-4 carMid text-center">
+            <img src="images/Repair.jpg" alt="A car with a wrench icon" class="img-fluid serviceImg">
+            <h2>MECHANICAL FIX</h2>
+            <ul>
+                <li>ENGINE REPAIR - 500$</li>
+                <li>ENGINE REPLACE - 1200$</li>
+                <li>OIL CHANGES - 60$</li>
+                <li>TUNING - 700$</li>
+                <li>BRAKES - 300$</li>
+                <li>ELECTICAL - 300$</li>
+            </ul>
+        </div>
+        <div class="col-12 col-lg-4 car text-center">
+            <img src="images/bodypaint.jpg" alt="A car being painted" class="img-fluid serviceImg">
+            <h2>BODY PAINT</h2>
+            <ul>
+                <li>CHROME - 500$</li>
+                <li>CLASSIC - 600$</li>
+                <li>METALLIC - 700$</li>
+                <li>MATTE - 700$</li>
+                <li>METALS - 700$</li>
+            </ul>
+        </div>
+  
+
+
+   
+    </div>
+
+
+
+
+</div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Request a Quote -->
+                <div class="col-md-4 col-12 mb-3 mb-md-0 text-center text-md-start" id="quote-form">
+                    <div class="form-container">
+                        <h5 id="quote" class="mb-3 footer-text">Request a Quote</h5>
+                        <form action="http://jac.stephmoreau.ca/submitForm/" method="POST">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="firstName" placeholder="First Name"
+                                    required>
+                            </div>
+                            <div class="form-group mt-2">
+                                <input type="text" class="form-control" name="lastName" placeholder="Last Name"
+                                    required>
+                            </div>
+                            <div class="form-group mt-2">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group mt-2">
+                                <input type="tel" class="form-control" name="phoneNumber" placeholder="Phone Number"
+                                    required>
+                            </div>
+                            <div class="form-group mt-2">
+                                <button type="submit" class="submit-button">SUBMIT</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Contact Information -->
+                <div class="col-md-4 col-12 text-center">
+                    <h5 class="mt-md-0 footer-text">Contact Us</h5>
+                    <p>
+                        <a href="tel:5141234567" class="phone-link">
+                            <i class="bi bi-telephone-fill me-2 phone-icon"></i>514-123-4567
+                        </a>
+                    </p>
+                    <p class="footer-text">
+                        <i class="bi bi-geo-alt-fill me-2 address-icon"></i>
+                        1234 Street Name<br>
+                        Montreal<br>
+                        Quebec<br>
+                        Postal Code
+                    </p>
+                </div>
+                <!-- Social links -->
+                <div class="col-md-4 col-12 text-center text-md-end">
+                    <div class="social-container">
+                        <h5 class="mb-3 footer-text">Socials</h5>
+                        <div class="d-flex justify-content-center justify-content-md">
+                            <a href="#" class="me-3">
+                                <i class="bi bi-facebook social-icon"></i>
+                            </a>
+                            <a href="#" class="me-3">
+                                <i class="bi bi-instagram social-icon"></i>
+                            </a>
+                            <a href="#" class="me-3">
+                                <i class="bi bi-youtube social-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copyright -->
+                <div class="row mt-3">
+                    <div class="col-md-12 text-center">
+                        <span class="text-muted">&copy; Mr. Car FeelBetter. All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

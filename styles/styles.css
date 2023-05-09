@@ -1,0 +1,431 @@
+/* colors and fonts
+
+background #1D1818
+red/crimson #A91111
+font-family: 'Arimo', sans-serif;
+font-family: 'Yesteryear', cursive;
+
+*******************/
+
+
+
+
+body {
+    background-color: #1D1818;
+    color: white;
+    font-family: 'Arimo', sans-serif
+}
+
+.service-button-home {
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #A91111;
+    border-radius: 12px;
+    border: 3px solid black;
+}
+
+
+.service-button, .submit-button{
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #A91111;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.service-button:hover, .service-button-home:hover{
+    background-color: #7c0d0d;  
+}
+
+.script {
+
+    font-family: 'Yesteryear', cursive;
+    font-size: 3em;
+    text-shadow: 3px 2px black;
+
+}
+
+/* HOME PAGE CSS 
+*******************/
+.home-container {
+    background-image: url('../images/MrCarFeelBetter-store.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-container h1 {
+    font-size: 7em;
+    text-align: center;
+}
+
+/* ABOUT PAGE CSS 
+*******************/
+
+
+#about-banner {
+
+        
+        display: flex;
+        flex-direction: column;
+        background-image: url(../images/rsz_engine-banner1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 22em;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid #A91111
+       
+
+
+}
+
+.about1 {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+/* REVIEW PAGE CSS 
+*******************/
+
+.review-head {
+    margin-top: 2.2em;
+}
+
+.review-head h2 {
+    font-size: 5em;
+}
+
+.stars {
+    color: gold;
+}
+
+.profile-pic {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+/* NAV CSS 
+*******************/
+#navbarMainHeader a{
+    color: white;
+    padding-right: 5.4em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#navbarMainHeader a:hover{
+    color: rgb(202, 202, 202);
+}
+
+#logoNav {
+    height: 75px;
+}
+
+.bg-main {
+    background-color: #1D1818;
+}
+
+nav {
+    border-bottom: 5px solid #A91111;
+}
+
+#logo{
+    height: 1em;
+}
+
+.nav-link.active {
+    color: #A91111 !important;
+}
+
+.nav-link.active:hover {
+    color:#7c0d0d !important;
+}
+
+/************
+PROJECTS CSS
+******/
+
+#projects {
+    margin-top: 3em;
+    margin-bottom: 4em;
+    font-size: 1.1em;
+}
+
+.proj-item {
+    margin-top: 2em;
+}
+
+/***Services CSS ***/
+
+.serviceList {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.serviceList li {
+    list-style-type: none
+}
+
+.serviceImg {
+    margin-bottom: 1em;
+
+}
+
+.serviceList h2{
+    font-weight: bold;
+}
+
+
+
+/* Style for the footer */
+footer {
+    padding-top: 20px;
+    background-color: #1D1818;
+    border-top: 5px solid #A91111;
+  }
+
+  .form-container, .quote, .social-container, .social-icon {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.social-icon {
+    color:#A91111;
+    font-size: xx-large;
+}
+
+.phone-icon, .address-icon {
+    color: #A91111;
+}
+
+.social-icon:hover, .phone-icon:hover {
+    color: #7c0d0d;
+}
+
+.submit-button:hover {
+    background-color: #7c0d0d;
+}
+
+
+.phone-link {
+    font-size: x-large;
+    color:white;
+}
+
+.text-muted {
+    padding-bottom: 10px;
+    color: white !important;
+}
+
+.footer-text {
+    font-size: x-large;
+}
+
+.phone-link:hover {
+    color: rgb(196, 186, 186);
+}
+
+.service-link {
+    color: white;
+}
+
+
+/*MEDIA queries ***********************/
+
+
+@media only screen and (max-width: 1399px) {
+    #navbarMainHeader a{
+        color: white;
+        padding-right: 2em;
+        font-weight: bold;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    #navbarMainHeader a{
+        color: white;
+        padding-right: 1em;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+
+    #about-banner {
+
+        height: 18em;
+
+}
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+
+    #navbarMainHeader a{
+        font-size: 1em;
+    }
+    
+
+    #about-banner {
+
+        height: 15em;
+        background-image: url(../images/engine-bannerM.jpg);
+}
+
+.home-container h1 {
+    font-size: 5em;
+}
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+body{
+    font-size: 15px;
+}
+
+.submit-button {
+    font-size: 16px;
+}
+
+    #about-banner {
+        font-size: .7em;
+        background-image: url(../images/engine-bannerM2.jpg);
+}
+
+#navbarMainHeader a{
+
+    font-size: 1.2em;
+}
+
+}
+
+
+@media only screen and (max-width: 430px) {
+
+    #about-banner {
+        font-size: .6em;
+        background-image: url(../images/engine-bannerM2.jpg);
+}
+
+}
+
+
+@media only screen and (max-width: 360px) {
+
+
+
+
+    #about-banner {
+
+        height: 13em;
+}
+
+}
+
+  p {
+    font-family: 'Arimo', sans-serif;
+ color: white;
+}
+
+
+
+
+
+
+
+
+/* Ayman */
+/*
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50PX;
+  }
+
+.center,
+.RightHead,
+.LeftHead {
+  max-width: calc(33% - 1rem);
+  height: auto;
+  padding: 2vh;
+}
+.left,
+.right{
+    padding: 100px;
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    padding: 10px;
+    
+  }
+
+ .car h2{
+    color: #9A1111;
+ } 
+
+ul{
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+
+}
+
+ul li{
+    padding: 15px;
+    font-size: large;
+}
+
+
+
+
+  .repair{
+    height: 303px;
+    width: 317px;
+    margin-right: 10%;
+    
+  }
+  .body{
+    height: 303px;
+    width: 303px;
+  }
+
+*/
